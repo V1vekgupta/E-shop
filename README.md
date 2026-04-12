@@ -1,30 +1,49 @@
-# E-shop: Enterprise Multi-Vendor Platform
-## 📑 Table of Contents
-- [Description](#description)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Quick Start](#quick-start)
-- [Environment Variables Setup](#Environment-Variables-Setup)
-- [Screenshots](#screenshots)
+# 🛒 E-shop: Enterprise Multi-Vendor Platform
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=spring)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+
+A full-stack multi-vendor e-commerce platform enabling **customers, sellers, and admins** to manage products, orders, and payments efficiently.
+
+---
+
+## 📑 Table of Contents
+- [Description](#-description)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Quick Start](#-quick-start)
+- [Environment Variables Setup](#-environment-variables-setup)
+- [Screenshots](#-screenshots)
+
+---
 
 ## 📝 Description
 
-• Full-Stack E-commerce Solution: Developed a production-grade marketplace using Spring Boot, React, and Redux. Implemented microservices with separate customer, admin, and seller portals with real-time inventory management.
+- Full-stack e-commerce platform built using **Spring Boot, React, and Redux**
+- Implemented secure authentication using **JWT and Role-Based Access Control (RBAC)**
+- Integrated **Stripe payment gateway** for secure online transactions
+- Designed scalable database using **PostgreSQL with JPA/Hibernate**
+- Supports advanced features like **pagination, sorting, and search**
 
-• Advanced Security & Payment Processing: Integrated enterprise-level authentication using Spring Security with JWT tokens and role-based access control (RBAC). Implemented secure payment gateway integration with Stripe API.
-
-• Scalable Database Architecture: Designed complex entity relationships using JPA/Hibernate across PostgreSQL databases. Implemented advanced features including pagination, sorting and search.
+---
 
 ## ✨ Features
 
-- Multi-vendor e-commerce platform with Customer, Seller, and Admin roles  
-- Secure authentication using JWT and Role-Based Access Control (RBAC)  
-- Integrated Stripe payment gateway for seamless online transactions  
-- RESTful APIs built with Spring Boot and optimized database using JPA/Hibernate  
-- Responsive frontend using React with real-time cart and product management
-- Implemented advanced features including pagination, sorting and search 
+- Multi-vendor platform with **Customer, Seller, and Admin roles and dashboard**  
+- Secure authentication with **JWT & RBAC**  
+- Integrated **Stripe payment system**  
+- RESTful APIs using **Spring Boot**  
+- Responsive UI with **React & Tailwind CSS**  
+- Advanced features like **pagination, filtering, and search**
 
+---
 
 ## 🛠️ Tech Stack
 
@@ -33,6 +52,15 @@
 **Database:** PostgreSQL, JPA/Hibernate  
 **Payment:** Stripe  
 **Tools:** Git, Maven, REST APIs  
+
+---
+
+## 📂 Project Structure
+
+- `sb-ecom/` → Spring Boot backend  
+- `ecom-frontend/` → React frontend  
+
+---
 
 ## ⚡ Quick Start
 
@@ -57,6 +85,9 @@ npm install
 npm run dev
 ```
 
+> ⚠️ Make sure PostgreSQL is running before starting backend
+
+---
 
 ## 🔐 Environment Variables Setup
 
@@ -79,33 +110,45 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 VITE_BACK_END_URL=http://localhost:8080
 VITE_STRIPE_PUBLIC_KEY=your_stripe_publishable_key
 ```
+
 > ⚠️ Never commit `.env` files to GitHub. Use `.env.example` instead.
 
-## 🚀 Run Commands
-
-- **dev**: `npm run dev`
-- **build**: `npm run build`
-- **lint**: `npm run lint`
-- **preview**: `npm run preview`
+---
 
 
 ## 📸 Screenshots
 
-> **Tip:** You can auto-generate a beautiful project mockup image using the **Screenshot** button above!
+> Replace these placeholders with actual screenshots of your application
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Main+Application+View" alt="Main Application View" width="80%"/>
+  <img src="https://via.placeholder.com/800x400?text=Home+Page" width="80%"/>
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Feature+Showcase" alt="Feature Showcase" width="80%"/>
+  <img src="https://via.placeholder.com/800x400?text=Admin+Dashboard" width="80%"/>
 </p>
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=spring)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=jsonwebtokens)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=Checkout+Page" width="80%"/>
+</p>
+
+---
+
+## 🌟 Future Improvements
+
+- Add product recommendation system  
+- Implement order tracking system  
+- Improve UI/UX with animations  
+- Deploy using Docker & CI/CD  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.

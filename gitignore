@@ -1,0 +1,21 @@
+# IntelliJ / IDE
+.idea/
+*.iml
+.vscode/
+
+# OS files
+desktop.ini
+.DS_Store
+
+# Environment files (VERY IMPORTANT)
+.env
+**/.env
+
+# Node (Frontend)
+node_modules/
+dist/
+build/
+
+# Spring Boot (Backend)
+target/
+*.log

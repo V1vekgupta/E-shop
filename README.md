@@ -234,27 +234,44 @@ VITE_STRIPE_PUBLIC_KEY=pk_test_your_stripe_publishable_key
 
 ## 📸 Screenshots
 
-> Replace these with actual screenshots of your running application
+
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Home+Page" width="80%"/>
+<img width="1877" height="888" alt="Screenshot 2026-04-21 075953" src="https://github.com/user-attachments/assets/bb8bd577-7d4c-4eee-8c75-d7154934f6a1" />
   <br/><em>Customer Storefront</em>
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Product+Listing+with+Filter+%26+Search" width="80%"/>
+ <img width="1888" height="886" alt="Screenshot 2026-04-21 080042" src="https://github.com/user-attachments/assets/2bb50abb-4953-49d7-a925-d8133c72c897" />
+  <br/><em>Product Listing in Home Page</em>
+</p>
+
+<p align="center">
+<img width="1896" height="808" alt="Screenshot 2026-04-21 080116" src="https://github.com/user-attachments/assets/f2546ba1-b060-4f6e-8aae-f7b9d489803a" />
   <br/><em>Product Listing — Paginated, Sortable, Searchable</em>
 </p>
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Cart+%26+Checkout" width="80%"/>
-  <br/><em>Cart & Stripe Checkout Flow</em>
+<img width="1898" height="804" alt="Screenshot 2026-04-21 080506" src="https://github.com/user-attachments/assets/2981c53f-2839-44f4-a7d3-dcbf7fbaf8f3" />
+  <br/>
+<img width="1892" height="799" alt="Screenshot 2026-04-21 080521" src="https://github.com/user-attachments/assets/d989782c-8b9f-4444-b748-52e8bf79cbb5" />
+  <br/>
+ <img width="1890" height="800" alt="Screenshot 2026-04-21 080534" src="https://github.com/user-attachments/assets/6c4afa0b-2d29-464c-8915-eec00faa5c3a" />
+  <br/><em>Check-out Pages</em>
+</p>
+<p align="center">
+  <img width="1888" height="797" alt="Screenshot 2026-04-21 080634" src="https://github.com/user-attachments/assets/c5b650d2-f91f-4e74-a533-4534984428c2" />
+ <br/><em>Stripe Payment Processing</em>
+</p>
+<p align="center">
+  <img width="1906" height="885" alt="Screenshot 2026-04-21 080256" src="https://github.com/user-attachments/assets/0b8f304b-1080-4af3-9837-f6ca0b1d9281" />
+ <br/><em>Admin Dashboard </em>
+</p>
+<p align="center">
+<img width="1879" height="886" alt="Screenshot 2026-04-21 080414" src="https://github.com/user-attachments/assets/14adca15-9cc0-4ac2-9d8f-c9702bd9cf03" />
+ <br/><em>Seller Dashboard </em>
 </p>
 
-<p align="center">
-  <img src="https://via.placeholder.com/800x400?text=Admin+Panel" width="80%"/>
-  <br/><em>Admin Panel — Product & Category Management</em>
-</p>
 
 ---
 
